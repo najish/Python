@@ -8,13 +8,28 @@ class BinarySearchTree:
             self.left = self.right = None
 
     def insert(self,data):
-        root = self.root
         if root is None:
-            self.root = self.Node(data)
+            return self.Node(data)
+        elif root.data > data:
+            root.left = self.insert(root.left,data)
+        elif root.data < data:
+            root.right = self.insert(root.right,data)
+        else:
+            return root
 
-        parent = None
-        while root is not None:
-            if root is None:
-                root = self.Node(data)
-                
+    def preorder(self,root):
+        if root is None:
+            return
+        self.preorder(root.left)
+        print(root.data, end=' ')
+        self.preorder(root.right)
+
+
+
+
+if __name__ == "__main__":
+    root = BinarySearchTree()
+
+
+
 
