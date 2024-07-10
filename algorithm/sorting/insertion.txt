@@ -1,0 +1,41 @@
+function 3 cheze important
+==========
+1. banate hai // 1
+2. batate hai // 1
+3. bulate hai (call) 1,2,10,100,1000, any many times as we want
+
+function types 
+1. take something return something
+2. take something return nothing
+3. take nothing return nothing
+4. take nothing return nothing
+
+
+x = 15
+y = 5
+
+d2(x,y) => 15 - 5 = 10
+difference(x,y) => 15 - 5 = 10
+difference(y,x) => 5 - 15 = -10 
+
+
+output from d2 :10 
+-10
+
+
+
+write a function ask user to take 2 integer values and computer their sum and their difference and show their sum & differene
+
+
+
+
+compile vs execute (run) 
+
+
+main => run code 
+compile not eequal run
+
+
+c file => main
+java file => main
+csharp file => main
